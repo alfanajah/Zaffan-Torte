@@ -3,11 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="/src/output.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+        --color-alfan: #824D74;
+        --color-bg:#FDAF7B;
+        --color-unggu:#401F71;
+      }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Projek Branding</title>
 </head>
+
 <body>
-    
+  <!-- <h1 class="">mari belajar</h1>
+
+
+  <section class="mb-10">
+    <h2>spacing</h2>
+    <div class="m-13">margin</div>
+    <div class="p-8">padding</div>
+  </section>
+
+  <section class="mb-10">
+    <h2>sizing</h2>
+    <div class="w-32 h-32">kotak 1</div>
+  </section>
+
+
+  <section class="mb-100">
+    <h2 class="mb-4">belajar mengenai typografi di tailwind</h2>
+    <div class="mb-4">by alfanajah 7 november 2025</div>
+    <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, delectus. Dolores vero, cupiditate, nihil ipsam, eaque porro consequuntur deserunt amet omnis voluptates officia pariatur tenetur ipsum nisi nam. Ipsam commodi, eius at soluta, molestiae, aliquid minima fuga facilis fugit mollitia repudiandae voluptate iste. Veritatis enim commodi suscipit, voluptatum nobis harum!</p>
+    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eligendi libero nihil quos nisi facere magni? Voluptas recusandae nostrum numquam.</p>
+    <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus architecto doloribus, at consequuntur odit inventore culpa quos, fuga cumque autem aliquam suscipit nobis consectetur adipisci debitis vero voluptatem laboriosam ducimus?</p>
+  </section> -->
+
+<!-- <header class=" bg-alfan flex h-[100px]">
+  <div class="my-auto w-25 ml-5"><img src="aset/Picture2.jpg" alt="" class="rounded-sm"></div>
+  <ul class="flex flex-1 items-center justify-end gap-10 pr-3 text-white text-xl font-semibold mr-3 ">
+                <li class=""><a href="" class=" text-[#401F71] font-semibold hover:text-[#401F71]">Home</a></li>
+                <li class=""><a href="" class=" text-white font-semibold hover:text-[#401F71]">Produk ▼</a></li>
+                <li class=""><a href="" class=" text-white font-semibold hover:text-[#401F71]">Layanan</a></li>
+                <li class=""><a href="" class=" text-white font-semibold hover:text-[#401F71]">Promo</a></li>
+                <li class=""><a href="" class=" text-white font-semibold hover:text-[#401F71]">About us ▼</a></li>
+                <li class=""><a href="" class=" text-white font-semibold hover:text-[#401F71]">Outlet</a></li>
+  </ul>
+</header> -->
+
+<header class="h-30 mx-0 mt-0 flex flex-row bg-alfan items-center justify-center font-sans text-xl gap-70 max-md:flex-col max-md:gap-4 max-md:h-40 max-sm:flex-col max-sm:gap-4 max-sm:h-40">
+    <div class="w-30 flex md:justify-center max-sm:justify-center">
+        <img src="aset/referse.png" alt="">
+    </div>
+    <div class="flex">
+        <ul class="list-none max-md:text-center max-sm:text-center">
+            <li class="inline-block mr-6"><a href="" class="no-underline text-[#FDAF7B] font-semibold">Home</a></li>
+            <li class="inline-block mr-6"><a href="" class="no-underline text-white font-semibold hover:text-[#FDAF7B]">Produk <i class="fa-solid fa-angle-down"></i></a></li>
+            <li class="inline-block mr-6"><a href="" class="no-underline text-white font-semibold hover:text-[#FDAF7B]">Layanan</a></li>
+            <li class="inline-block mr-6"><a href="" class="no-underline text-white font-semibold hover:text-[#FDAF7B]">Promo</a></li>
+            <li class="inline-block mr-6"><a href="" class="no-underline text-white font-semibold hover:text-[#FDAF7B]">About us <i class="fa-solid fa-angle-down"></i></a></li>
+            <li class="inline-block mr-6"><a href="" class="no-underline text-white font-semibold hover:text-[#FDAF7B]">Outlet</a></li>
+        </ul>
+    </div>
+
+</header>
+
+
+    <div class=" w-full h-13 flex flex-row justify-around items-center max-sm:h-20 max-md:h-20 max-sm:hidden max-md:hidden">
+  
+      <ul class="list-none">
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 " >PARCEL</a>
+        </li>
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >TRADITIONAL</a>
+        </li>
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >BREAD</a>
+        </li>
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >PUDDING</a>
+        </li>
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >WHOLE BREAD + CAKE</a>
+        </li>
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >COOKIE</a>
+        </li>
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >PASTRY</a>
+        </li>
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >DONUT</a>
+        </li>
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >CAKE</a>
+        </li>
+        <li class="inline-block h-13 border-r-1 border-slate-300">
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >TART</a>
+        </li>
+      </ul>
+    </div>
+
+<!-- <section class="m-0 h-[82.4vh]">
+  <img src="aset/referse.png" alt="" class="h-100 mx-auto pt-20 2xl:h-130 max-md:h-100 max-sm:h-60">
+</section>  -->
+
+<section class="flex justify-center items-center gap-[47px] h-[80vhvh] bg-bg">
+<div class="text-white pl-20">
+  <h1 class="text-[44px] font-serif mb-8">apa pun <span class="text-alfan">ACARANYA,</span><br>
+  <span class="text-alfan">ZAFFAN TORTE</span> solusinya</h1>
+
+  <h2 class="text-lg">Lifestyle Bakery Dengan Varian Produk Terbanyak dan <br> Jaminan Kualitas Produk & Layanan.</h2>
+
+  <h2 class="mt-5 text-lg text-alfan">Jam Operasional (Tiap Hari): <br>06.00 - 21.00</h2>
+
+  <button class=" mt-10 h-11 w-50 bg-alfan hover:bg-unggu hover:text-bg duration-300 rounded-sm"><a href="" class="text-[16px]">Pilih Produk Kami<i class="fa-solid fa-chevron-right"></i></a></button>
+</div>
+
+  <img src="aset/rpl2.png" alt="" class="h-126.5 w-179">
+</div>
+<!-- <div >
+  <div id="thumbnail-slider" class="splide w-180">
+  <div class="splide__track ">
+		<ul class="splide__list">
+			<li class="splide__slide">
+				<img src="aset/Picture2.jpg" class="h-10">
+			</li>
+			<li class="splide__slide">
+				<img src="aset/referse.png">
+			</li>
+			<li class="splide__slide">
+				<img src="aset/rpl1.png">
+			</li>
+		</ul>
+  </div>
+</div>
+</div>
+
+</section>
+
+
+
+    <script src="/js/style.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+    new Splide( '#thumbnail-slider' ).mount();
+    </script> -->
 </body>
 </html>
