@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/src/output.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,16 +35,20 @@
       }
     </style>
 
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projek Branding</title>
 </head>
+
 <body>
- <header class="h-30 mx-0 mt-0 flex flex-row bg-alfan items-center justify-center font-sans text-xl gap-70 max-md:flex-col max-md:gap-4 max-md:h-40 max-sm:flex-col max-sm:gap-4 max-sm:h-40">
+
+<header class="h-30 mx-0 mt-0 flex flex-row bg-alfan items-center justify-center font-sans text-xl gap-70 max-md:flex-col max-md:gap-4 max-md:h-40 max-sm:flex-col max-sm:gap-4 max-sm:h-40">
     <div class="w-30 flex md:justify-center max-sm:justify-center">
         <img src="aset/referse.png" alt="">
     </div>
     <div class="flex">
         <ul class="list-none max-md:text-center max-sm:text-center">
-            <li class="inline-block mr-6"><a href="http://127.0.0.1:5500/index.html" class="no-underline text-[#FDAF7B] font-semibold">Home</a></li>
+            <li class="inline-block mr-6"><a href="http://127.0.0.1:5500/index.html" class="no-underline text-white hover:text-[#FDAF7B] font-semibold">Home</a></li>
             <li class="inline-block mr-6">
               <el-dropdown class="inline-block">
   <button class="cursor-pointer inline-flex text-lg font-semibold text-white hover:text-[#FDAF7B]">
@@ -72,7 +90,7 @@
 
 </header>
 
- <div class=" w-full h-13 flex flex-row shadow-sm justify-around items-center max-sm:h-20 max-md:h-20 max-sm:hidden max-md:hidden">
+<div class="shadow-sm w-full h-13 flex flex-row justify-around items-center max-sm:h-20 max-md:h-20 max-sm:hidden max-md:hidden">
   
       <ul class="list-none">
         <li class="inline-block h-13 border-r-1 border-slate-300">
@@ -82,7 +100,7 @@
           <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >TRADITIONAL</a>
         </li>
         <li class="inline-block h-13 border-r-1 border-slate-300">
-          <a href="http://127.0.0.1:5500/web3a.html" class=" flex justify-center items-center no-underline font-semibold text-alfan pt-3.5 pr-5 pl-5" >BREAD</a>
+          <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >BREAD</a>
         </li>
         <li class="inline-block h-13 border-r-1 border-slate-300">
           <a href="" class=" flex justify-center items-center no-underline font-semibold text-bg hover:text-alfan pt-3.5 pr-5 pl-5" >PUDDING</a>
@@ -108,122 +126,29 @@
       </ul>
     </div>
 
-    <section class="flex ml-20 mt-10 h-[160vh]">
+     <section class="flex ml-20 max-sm:ml-0 max-sm:justify-center max-md:justify-center items-center mt-10 h-[70vh] max-md:flex-col max-md:h-[110vh] max-sm:h-[130vh] right-0 left-0">
         
-        <div class="border-r border-slate-200 pr-13">
-          <p class="mb-10">Anda berada di : <a href="http://127.0.0.1:5500/index.html" class="text-bg hover:text-alfan">Home </a>/ item</p>
-          <el-dropdown class="inline-block">
-  <button class="mb-10 cursor-pointer inline-flex w-full justify-center gap-x-1.5 rounded-md border border-slate-300 px-3 py-2 text-sm font-semibold text-black inset-ring-1 inset-ring-white/5 hover:bg-white/20">
-    Urutan Normal
-    <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="-mr-1 size-5 text-gray-400">
-      <path d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" />
-    </svg>
-  </button>
-
-  <el-menu anchor="bottom end" popover class="shadow-sm border border-slate-300 w-80 origin-top-right rounded-md outline-1 -outline-offset-1 outline-white/10 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
-    <div class="py-1">
-      <a href="#" class="border-b border-slate-600 block px-4 py-2 text-sm text-black focus:bg-white/5  focus:border-b-bg focus:text-unggu focus:outline-hidden">Urutkan Berdasarkan Popularitas</a>
-      <a href="#" class="border-b border-slate-600 block px-4 py-2 text-sm text-black focus:bg-white/5  focus:border-b-bg focus:text-unggu focus:outline-hidden">Urutkan Berdasarkan Harga: Rendah ke tinggi</a>
-      <a href="#" class="block px-4 py-2 text-sm text-black focus:bg-white/5 focus:text-unggu focus:outline-hidden">Urutkan Berdasarkan Harga: Tinggi ke Rendah</a>
-    </div>
-  </el-menu>
-</el-dropdown>
-        <div class="grid grid-cols-4 gap-10">
-            <div>
-              <a href="http://127.0.0.1:5500/web3a1.html">
-                <img src="aset/bread1.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Banana Crunch <br> Crumble</p>
-                <p class="text-center text-unggu">Rp4.000</p>
-              </a>      
+        <div class="border-r border-slate-200 pr-13 max-sm:pr-0 max-sm:border-none items-center">
+          <p class="mb-5 text-lg max-md:text-base">Anda berada di : <a href="http://127.0.0.1:5500/index.html" class="text-bg hover:text-alfan">Home </a>/ <a href="" class="text-bg hover:text-alfan">Bread</a> / Cheese Choco Toast</p>
+          <h1 class="text-3xl font-medium mb-8">
+            Cheese Choco Toast
+          </h1>
+            <div class="flex flex-row gap-5 max-sm:flex-col">
+                <img src="aset/bread29.webp" alt="" class="h-70 rounded-sm max-md:h-50 max-sm:h-50 max-sm:w-50 border border-slate-200">
+                <div class="max-md:text-sm">
+                  <p class="text-lg mb-5 max-md:text-base">Buat kamu pecinta coklat, yuk cobain perpaduan coklat <br> dan keju parut dari Cheese Choco toast dengan teksture <br> rotinya yang lembut bikin hari-harimu semakin manis !!!</p>
+                  <p class="text-xl text-unggu mb-5 max-md:text-sm">Rp5.500</p>
+                  <p class="text-lg font-medium max-md:text-sm">Category : <a href="" class="hover:text-bg font-normal">Bread</a></p>
+                  <p class="text-lg font-medium -mt-1 max-md:text-sm">Tags : <a href="" class="hover:text-bg font-normal">Cheese</a>, <a href="" class="hover:text-bg font-normal">Asin</a>, <a href="" class="hover:text-bg font-normal">Chocolate</a></p>
+                </div> 
             </div>
             <div>
-              <a href="http://127.0.0.1:5500/web3a2.html">
-                <img src="aset/bread2.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Bigger Banana<br>Cheese Special</p>
-                <p class="text-center text-unggu">Rp9.500</p>
-              </a>      
+              
             </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a3.html">
-                <img src="aset/bread3.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Bigger Banana<br>Choco Special</p>
-                <p class="text-center text-unggu">Rp9.500</p>
-              </a>      
-            </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a4.html">
-                <img src="aset/bread4.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Bigger Cheese<br>Vanilla</p>
-                <p class="text-center text-unggu">Rp8.500</p>
-              </a>      
-            </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a5.html">
-                <img src="aset/bread5.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Bigger Triple Taste</p>
-                <p class="text-center text-unggu">Rp8.000</p>
-              </a>      
-            </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a6.html">
-                <img src="aset/bread6.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Black bun</p>
-                <p class="text-center text-unggu">Rp5.500</p>
-              </a>      
-            </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a7.html">
-                <img src="aset/bread7.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Chicken Cheese <br> Tomato</p>
-                <p class="text-center text-unggu">Rp6.500</p>
-              </a>      
-            </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a8.html">
-                <img src="aset/bread8.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Choco Crunchy bun</p>
-                <p class="text-center text-unggu">Rp4.000</p>
-              </a>      
-            </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a9.html">
-                <img src="aset/bread9.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Chocolate Mexican <br> Meses Bun</p>
-                <p class="text-center text-unggu">Rp6.500</p>
-              </a>      
-            </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a10.html">
-                <img src="aset/bread10.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Banana Crunch <br> Crumble</p>
-                <p class="text-center text-unggu">Rp4.000</p>
-              </a>      
-            </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a11.html">
-                <img src="aset/bread11.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Mochoco Bun</p>
-                <p class="text-center text-unggu">Rp7.000</p>
-              </a>      
-            </div>
-            <div>
-              <a href="http://127.0.0.1:5500/web3a12.html">
-                <img src="aset/bread1.webp" alt="" class="h-40 rounded-sm border-3 border-slate-300">
-                <p class="text-center pt-2 font-medium mb-1">Soft Roll Abon</p>
-                <p class="text-center text-unggu">Rp7.500</p>
-              </a>      
-            </div>
-            </div>
-            <div class="flex flex-row gap-1 mt-13">
-                <div class="text-center pt-1 bg-bg w-7 h-9 text-unggu text-xl">1</div>
-                <a href="http://127.0.0.1:5500/web3b.html"><button class="cursor-pointer text-center bg-unggu w-7 h-9 text-bg text-xl hover:bg-bg hover:text-unggu transition-all">2</button></a>
-                <a href="http://127.0.0.1:5500/web3c.html"><button class="cursor-pointer text-center bg-unggu w-7 h-9 text-bg text-xl hover:bg-bg hover:text-unggu transition-all">3</button></a>
-                <a href="http://127.0.0.1:5500/web3b.html"><button class="cursor-pointer text-center bg-unggu w-10 h-9 text-bg hover:bg-bg hover:text-unggu transition-all"><i class="fa-solid fa-arrow-right"></i></button></a>
-               
             </div>
         </div>
 
-        <div class="sticky top-1 pl-7">
+        <div class="sticky top-1 pl-7 max-md:pl-0 max-md:mr-93 max-sm:mr-54">
             <h1 class="text-xl mt-13 mb-6">Product Tags</h1>
             <div class="sticky">
             <button class="bg-bg w-10 hover:bg-alfan hover:text-white transition-all mb-1">Asin</button>
@@ -259,15 +184,17 @@
         </div>
     </section>
 
-    <footer class="flex flex-row gap-180 pr-5 h-[15vh] bg-unggu max-md:h-[20vh] justify-center max-md:gap-50 max-md:pr-0">
+    <footer class="flex flex-row gap-180 max-sm:gap-25 pr-5 h-[15vh] bg-unggu max-md:h-[20vh] justify-center max-md:gap-50 max-md:pr-0">
   <div class="pl-2 pt-5">
-    <h1 class="text-lg font-semibold text-bg">© Copyright 2025-2030 Zaffan Torte <br> All Rights Reserved</h1>
+    <h1 class="text-lg font-semibold text-bg max-md:text-base max-sm:text-sm">© Copyright 2025-2030 Zaffan Torte <br> All Rights Reserved</h1>
   </div>
   <div>
-    <h1 class="pt-5 text-lg font-semibold text-bg">Developed by <a href="https://alfanajah.github.io/Portofolio/" target="_blank">AFN</a></h1>
+    <h1 class="pt-5 text-lg font-semibold text-bg max-md:text-base max-sm:text-sm">Developed by <a href="https://alfanajah.github.io/Portofolio/" target="_blank">AFN</a></h1>
   </div>
 </footer>
 
+
 <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+
 </body>
 </html>
